@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres para suportar acentos e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a exibição para dispositivos móveis -->
+    <title>Formação Educacional</title>
+    <link rel="stylesheet" href="index.css"> <!-- Link para o arquivo CSS externo -->
+    <style>
+        /* Estilos específicos para o status dos cursos */
+        .formacao p.status-concluido {
+            color: green;
+            font-weight: 700;
+        }
+        .formacao p.status-andamento {
+            color: #F0E68C;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <!-- Contêiner principal para organizar o conteúdo -->
+        <nav>
+            <ul> <!-- Menu de navegação -->
+                <li><a href="sobremim.html">Sobre mim</a></li>
+                <li><a href="formacao.html">Formação Educacional</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="center"> <!-- Centraliza o conteúdo no cabeçalho -->
+                <img src="./img/Igor.jpeg" alt="Foto de Igor Patrício Siqueira"> <!-- Imagem do autor -->
+            </div>
+            <h1>Igor Patrício Siqueira</h1> <!-- Nome do autor -->
+        </header>
+        <main>
+            <section>
+                <div class="formacao"> <!-- Seção específica para informações educacionais -->
+                    <h2>Formação Educacional</h2>
+                    <h3>Curso Superior em Logística</h3>
+                    <p>Mar/2022 - Dez/2023</p> <!-- Período do curso -->
+                    <p class="status-concluido">Status: Concluído</p> <!-- Status com estilo destacado -->
+
+                    <h3>Curso Superior em Análise e Desenvolvimento de Softwares</h3>
+                    <p>Jul/2024 - Até o momento</p> <!-- Período do curso atual -->
+                    <p class="status-andamento">Status: Em andamento</p> <!-- Status com estilo destacado -->
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
